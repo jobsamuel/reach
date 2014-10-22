@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!--[if IE 9]><html class="lt-ie10" lang="en" > <![endif]-->
+<html class="no-js" lang="en" ng-app="main">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reach</title>
+
+  <!-- Foundation CSS -->
+  <link rel="stylesheet" href="common/foundation/css/normalize.css">
+  <link rel="stylesheet" href="common/foundation/css/foundation.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/app.css">
+
+  <!-- Foundation JS -->
+  <script src="common/foundation/js/vendor/modernizr.js"></script>
+
+  <!-- Main JS -->
+  <script src="common/angular/angular.min.js"></script>
+  <script src="common/jquery/dist/jquery.min.js"></script>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="js/main.js"></script>
+
+</head>
+<body ng-controller="mainCtrl">
+<div class="row">
+  <div class="large-8 large-centered columns">
+    <h1> {{ message }} </h1>
+    <div id="arena" class="panel arena radius" ng-mousemove="moving($event)">
+    <div class="target"></div>
+    </div>
+    <p> Target position X{{ cx }} Y{{ cy }} (server)</p>
+    <p> Player position X{{ px }} Y{{ py }} (client)</p>
+  </div>
+</div>
+</body>
+</html>

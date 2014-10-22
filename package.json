@@ -1,0 +1,29 @@
+{
+  "name": "catchup",
+  "version": "0.0.0",
+  "description": "Catch it, if you can.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jobsamuel/catchup.git"
+  },
+  "keywords": [
+    "socket.io",
+    "game",
+    "just4fun"
+  ],
+  "author": "Jobsamuel Núñez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jobsamuel/catchup/issues"
+  },
+  "homepage": "https://github.com/jobsamuel/catchup",
+  "dependencies": {
+    "express": "^4.9.8",
+    "socket.io": "^1.1.0"
+  }
+}
