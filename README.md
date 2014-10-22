@@ -1,4 +1,4 @@
-catchup
+Reach
 =======
 
-Catch it, if you can.
+Just try to reach the square.

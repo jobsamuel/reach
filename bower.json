@@ -1,8 +1,8 @@
 {
-  "name": "catchup",
+  "name": "reach",
   "version": "0.0.0",
-  "homepage": "https://github.com/jobsamuel/catchup",
-  "description": "Catch it, if you can.",
+  "homepage": "https://github.com/jobsamuel/reach",
+  "description": "Just try to reach the square.",
   "main": "server.js",
   "keywords": [
     "socket.io",
